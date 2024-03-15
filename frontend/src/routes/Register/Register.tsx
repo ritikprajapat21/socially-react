@@ -7,7 +7,7 @@ function Register() {
   return (
     <div className={styles.container}>
       <Form className={styles.form}>
-        <Input type="text" placeholder="Enter your name" />
+        <Input type="text" placeholder="Enter your username" />
         <Input type="email" placeholder="Enter your email" />
         <Input type="password" placeholder="Enter your password" />
         <Input type="password" placeholder="Re-enter your password" />
