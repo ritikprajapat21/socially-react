@@ -1,12 +1,8 @@
+import Content from "./Content";
+import User from "./User";
+
 export default interface Post {
   id: number;
-  user: {
-    username: string;
-    image: string;
-    name: string;
-  };
-  content: {
-    desc?: string;
-    image?: string;
-  };
+  user: User;
+  content: Content;
 }
