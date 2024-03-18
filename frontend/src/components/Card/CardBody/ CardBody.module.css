@@ -1,0 +1,9 @@
+.cardBody {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.cardBody p {
+  margin: 0;
+}

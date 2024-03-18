@@ -1,0 +1,33 @@
+.body {
+  width: 100%;
+  max-height: 250px;
+  /* overflow-y: overlay; */
+}
+
+.body p {
+  margin: 0;
+}
+
+.body img {
+  max-height: 11rem;
+  width: 100%;
+  object-fit: contain;
+}
+
+@media (max-width: 768px) {
+  .body img {
+    max-height: 150px;
+  }
+}
+
+@media screen and (max-width: 668px) {
+  .body img {
+    max-height: 150px;
+  }
+}
+
+@media (max-width: 768px) {
+  .body img {
+    max-height: 150px;
+  }
+}

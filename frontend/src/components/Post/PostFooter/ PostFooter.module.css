@@ -1,0 +1,22 @@
+.footer {
+  display: flex;
+  gap: 4rem;
+  width: 90%;
+  justify-content: space-between;
+  backdrop-filter: blur(10px);
+  border-top: 1px solid white;
+  padding-top: 0.5rem;
+}
+
+.footer button {
+  background-color: transparent;
+  width: 2rem;
+  height: 2rem;
+  border: none;
+  cursor: pointer;
+}
+
+.footer button svg {
+  height: 1.35rem;
+  width: 2rem;
+}

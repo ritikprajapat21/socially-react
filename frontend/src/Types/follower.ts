@@ -1,8 +1,7 @@
+import User from "./User";
+
 export default interface Follower {
-  id: number;
-  name: string;
-  username: string;
-  image: string;
+  user: User;
   followers: number;
   followings: number;
 }
